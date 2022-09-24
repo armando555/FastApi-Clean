@@ -17,6 +17,27 @@ mysql -u root -p
 create database test_bookstore;
 ```
 
+
+# install dependencies
+```
+poetry install
+```
+
+# NOTE
+Don't forget select the python interpreter 
+
+## in visual studio code
+CTRL+P
+
+
+Write symbol greater ">"
+
+
+Choose the option Python: Select Interpreter 
+
+
+finally, select the interpreter with the tag Poetry
+
 # run proyect with uvicorn
 ```
 poetry run start
