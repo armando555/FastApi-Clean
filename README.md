@@ -1,3 +1,9 @@
+#FAST API CLEAN ARCHITECTURE
+
+# This is a very important thing
+The modules of services and repositories are not using because they are for specific things. In this case we are using https://github.com/awtkns/fastapi-crudrouter to build the pydantic schemas and the routers automatically. But if you want to build the manually use this https://github.com/Progyan1997/fastapi-clean-example repo to follow the strategy. Please note that in this repo, he is using SQLAlchemy but I'm using Tortoise.
+
+
 # setup the .env file with all the configuration according to the deployment
 
 # stop database container
