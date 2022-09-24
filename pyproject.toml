@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Armando Rios Gallego <armando.rios@twelve.net.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tortoise-orm = {extras = ["asyncmy"], version = "^0.19.2"}
+fastapi = "^0.85.0"
+fastapi-crudrouter = "^0.8.5"
+uvicorn = "^0.18.3"
+aiokafka = "^0.7.2"
+python-dotenv = "^0.21.0"
+cryptography = "^38.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+start = "app.main:start"
